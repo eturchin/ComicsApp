@@ -4,9 +4,9 @@ ComicsApp is a web application that allows users to brows comics. The applicatio
 
 ## Features
 
-- **View Random Comics**: Fetch a random comic from the API and display it with its title and image.
-- **Comic History**: Keep track of the comics you've viewed, and easily revisit them from the history list.
-- **Local Storage**: Your comic history is saved in your browser's local storage, so it persists even after refreshing the page.
+- **View Random Comics**: fetch a random comic from the API and display it with its title and image.
+- **Comic History**: keep track of the comics you've viewed, and easily revisit them from the history list.
+- **Local Storage**: your comic history is saved in your browser's local storage, so it persists even after refreshing the page.
 
 ## Technology Stack
 
@@ -26,7 +26,7 @@ To run the application locally, follow these steps:
     npm install
     ```
 3. **Set up the database connection string and migrations:**
-    - Open theappsettings.json file.
+    - Open the appsettings.json file.
     - Set the correct connection string for your database in the ConnectionStrings section. Example:
     ```bash
     "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=ComicDb;MultipleActiveResultSets=true;Encrypt=False"
